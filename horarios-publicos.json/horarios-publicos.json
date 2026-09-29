@@ -1,0 +1,1157 @@
+[
+  {
+    "course": "1º A",
+    "schedule": [
+      {
+        "time": "7:30-:8:30",
+        "days": [
+          "MATEMÁTICA",
+          "PRACT del LENGUAJE",
+          "CIENCIAS NATURALES",
+          "MATEMÁTICA",
+          "PRACT del LENGUAJE"
+        ]
+      },
+      {
+        "time": "8:30-9:30",
+        "days": [
+          "MATEMÁTICA",
+          "PRACT del LENGUAJE",
+          "CIENCIAS NATURALES",
+          "MATEMÁTICA",
+          "PRACT del LENGUAJE"
+        ]
+      },
+      {
+        "time": "9:45-10:45",
+        "days": [
+          "EDUC. ARTÍSTICA (Plástica)",
+          "CIENCIAS SOCIALES",
+          "INGLÉS",
+          "CIENCIAS NATURALES",
+          "CIENCIAS SOCIALES"
+        ]
+      },
+      {
+        "time": "10:45-11:45",
+        "days": [
+          "EDUC. ARTÍSTICA (Plástica)",
+          "CIENCIAS SOCIALES",
+          "INGLÉS",
+          "CIENCIAS NATURALES",
+          "CIENCIAS SOCIALES"
+        ]
+      },
+      {
+        "time": "11:50-12:50",
+        "days": [
+          "",
+          "CONST. CIUDADANÍA",
+          "",
+          "",
+          "CONST. CIUDADANÍA"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "1º B",
+    "schedule": [
+      {
+        "time": "7:30-8:30",
+        "days": [
+          "PRACT del LENGUAJE",
+          "CIENCIAS NATURALES",
+          "EDUCAC. ARTÍSTICA (Teatro)",
+          "PRACT del LENGUAJE",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "8:30-9:30",
+        "days": [
+          "PRACT del LENGUAJE",
+          "CIENCIAS NATURALES",
+          "EDUCAC. ARTÍSTICA (Teatro)",
+          "PRACT del LENGUAJE",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "9:45-10:45",
+        "days": [
+          "CIENCIAS SOCIALES",
+          "MATEMÁTICA",
+          "CIENCIAS NATURALES",
+          "CIENCIAS SOCIALES",
+          "CONST. CIUDADANÍA"
+        ]
+      },
+      {
+        "time": "10:45-11:45",
+        "days": [
+          "CIENCIAS SOCIALES",
+          "MATEMÁTICA",
+          "CIENCIAS NATURALES",
+          "CIENCIAS SOCIALES",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "11:50-12:50",
+        "days": [
+          "",
+          "",
+          "CONST. CIUDADANÍA",
+          "",
+          "INGLÉS"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "1º C",
+    "schedule": [
+      {
+        "time": "12:15 a 13:15",
+        "days": [
+          "CIENCIAS SOCIALES",
+          "CIENCIAS SOCIALES",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "time": "13:15 a 14:15",
+        "days": [
+          "MATEMÁTICA",
+          "INGLÉS",
+          "MATEMÁTICA",
+          "CIENCIAS NATURALES",
+          "CIENCIAS SOCIALES"
+        ]
+      },
+      {
+        "time": "14:15-15:15",
+        "days": [
+          "MATEMÁTICA",
+          "INGLÉS",
+          "MATEMÁTICA",
+          "CIENCIAS NATURALES",
+          "CIENCIAS SOCIALES"
+        ]
+      },
+      {
+        "time": "15:25 a 16: 25",
+        "days": [
+          "CONST. CIUDADANÍA",
+          "PRÁCT. Del LENGUAJE",
+          "CIENCIAS NATURALES",
+          "EDUC. ARTÍSTICA (Música)",
+          "PRÁCT. del LENGUAJE"
+        ]
+      },
+      {
+        "time": "16:25 a 17:25",
+        "days": [
+          "CONST. CIUDADANÍA",
+          "PRÁCT. Del LENGUAJE",
+          "CIENCIAS NATURALES",
+          "EDUC. ARTÍSTICA (Música)",
+          "PRÁCT. del LENGUAJE"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "1º D",
+    "schedule": [
+      {
+        "time": "12:15 a 13:15",
+        "days": [
+          "CONST DE LA CIUD",
+          "",
+          "CIENCIAS SOCIALES",
+          "",
+          ""
+        ]
+      },
+      {
+        "time": "13:15 a 14:15",
+        "days": [
+          "CONST DE LA CIUD",
+          "INGLÉS",
+          "CIENCIAS SOCIALES",
+          "CIENCIAS SOCIALES",
+          "CIENCIAS SOCIALES"
+        ]
+      },
+      {
+        "time": "14:15 a 15:15",
+        "days": [
+          "MATEMÁTICA",
+          "INGLÉS",
+          "MATEMÁTICA",
+          "PRACT del LENGUAJE",
+          "PRACT del LENGUAJE"
+        ]
+      },
+      {
+        "time": "15:25 a 16: 25",
+        "days": [
+          "ED. ARTÍSTICA (Danza)",
+          "CIENCIAS NATURALES",
+          "MATEMÁTICA",
+          "PRACT del LENGUAJE",
+          "PRACT del LENGUAJE"
+        ]
+      },
+      {
+        "time": "16:25 a 17:25",
+        "days": [
+          "ED. ARTÍSTICA (Danza)",
+          "CIENCIAS NATURALES",
+          "CIENCIAS NATURALES",
+          "CIENCIAS NATURALES",
+          "MATEMÁTICA"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "2º A",
+    "schedule": [
+      {
+        "time": "7:30-8:30",
+        "days": [
+          "INGLÉS",
+          "PRÁCT. del LENGUAJE",
+          "MATEMÁTICA",
+          "GEOGRAFÍA",
+          "FISICOQUÍMICA"
+        ]
+      },
+      {
+        "time": "8:30-9:30",
+        "days": [
+          "INGLÉS",
+          "PRÁCT. del LENGUAJE",
+          "MATEMÁTICA",
+          "GEOGRAFÍA",
+          "FISICOQUÍMICA"
+        ]
+      },
+      {
+        "time": "9:45-10:45",
+        "days": [
+          "EDUC. ARTÍSTICA (Plástica)",
+          "HISTORIA",
+          "BIOLOGÍA",
+          "MATEMÁTICA",
+          "PRÁCT. del LENGUAJE"
+        ]
+      },
+      {
+        "time": "10:45-11:45",
+        "days": [
+          "EDUC. ARTÍSTICA (Plástica)",
+          "HISTORIA",
+          "BIOLOGÍA",
+          "MATEMÁTICA",
+          "PRÁCT. del LENGUAJE"
+        ]
+      },
+      {
+        "time": "11:50-12:50",
+        "days": [
+          "",
+          "CONST. CIUDADANÍA",
+          "CONST. CIUDADANÍA",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "course": "2º B",
+    "schedule": [
+      {
+        "time": "7:30-8:30",
+        "days": [
+          "PRACT del LENGUAJE",
+          "FISICOQUÍMICA",
+          "MATEMÁTICA",
+          "BIOLOGÍA",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "8:30-9:30",
+        "days": [
+          "PRACT del LENGUAJE",
+          "FISICOQUÍMICA",
+          "MATEMÁTICA",
+          "BIOLOGÍA",
+          "AGüERO Karina (P)"
+        ]
+      },
+      {
+        "time": "9:45-10.45",
+        "days": [
+          "EDUC. ARTÍSTICA (Música)",
+          "MATEMÁTICA",
+          "HISTORIA",
+          "GEOGRAFÍA",
+          "PRACT del LENGUAJE"
+        ]
+      },
+      {
+        "time": "10:45-11:45",
+        "days": [
+          "EDUC. ARTISTICA (Música)",
+          "MATEMÁTICA",
+          "HISTORIA",
+          "GEOGRAFÍA",
+          "PRACT del LENGUAJE"
+        ]
+      },
+      {
+        "time": "11:50-12:50",
+        "days": [
+          "",
+          "",
+          "CONST. de la CIUDAD.",
+          "CONST. de la CIUDAD.",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "course": "2º C",
+    "schedule": [
+      {
+        "time": "12:15-13:15",
+        "days": [
+          "",
+          "",
+          "",
+          "GEOGRAFÍA",
+          "PRÁCT. del LENGUAJE"
+        ]
+      },
+      {
+        "time": "13:15-14:15",
+        "days": [
+          "HISTORIA",
+          "BIOLOGÍA",
+          "GEOGRAFÍA",
+          "MATEMÁTICA",
+          "PRÁCT. del LENGUAJE"
+        ]
+      },
+      {
+        "time": "14:15-15:15",
+        "days": [
+          "HISTORIA",
+          "BIOLOGÍA",
+          "CONST. de la CIUDAD.",
+          "MATEMÁTICA",
+          "EDUCAC. ARTÍSTICA (Plástica)"
+        ]
+      },
+      {
+        "time": "15:25-16:25",
+        "days": [
+          "FISICO QUIMICA",
+          "PRÁCT.del LENGUAJE",
+          "CONST. de la CIUDAD.",
+          "INGLÉS",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "16:25-17:25",
+        "days": [
+          "FISICO QUIMICA",
+          "PRÁCT. del LENGUAJE",
+          "EDUCAC. ARTÍSTICA (Plástica)",
+          "INGLÉS",
+          "MATEMÁTICA"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "2º D",
+    "schedule": [
+      {
+        "time": "7:30 - 8:30",
+        "days": [
+          "GEOGRAFÍA",
+          "PRÁCT. DEL LENGUAJE",
+          "MATEMÁTICA",
+          "MATEMÁTICA",
+          "FÍSICOQUÍMICA"
+        ]
+      },
+      {
+        "time": "8:30 - 9:30",
+        "days": [
+          "GEOGRAFÍA",
+          "PRÁCT. DEL LENGUAJE",
+          "MATEMÁTICA",
+          "MATEMÁTICA",
+          "FÍSICOQUÍMICA"
+        ]
+      },
+      {
+        "time": "9:40 - 10:40",
+        "days": [
+          "BIOLOGÍA",
+          "CONST. de la CIUDAD.",
+          "INGLÉS",
+          "HISTORIA",
+          "PRÁCT. DEL LENGUAJE"
+        ]
+      },
+      {
+        "time": "10:40 - 11:40",
+        "days": [
+          "BIOLOGÍA",
+          "CONST. de la CIUDAD.",
+          "INGLÉS",
+          "HISTORIA",
+          "PRÁCT. DEL LENGUAJE"
+        ]
+      },
+      {
+        "time": "11:45 - 12:45",
+        "days": [
+          "",
+          "EDUCAC. ARTÍSTICA (Música)",
+          "",
+          "EDUCAC. ARTÍSTICA (Música)",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "course": "3º A",
+    "schedule": [
+      {
+        "time": "7:30-8:30",
+        "days": [
+          "INGLÉS",
+          "GEOGRAFÍA",
+          "MATEMÁTICA",
+          "BIOLOGÍA",
+          "EDUC. ARTÍSTICA (Plástica)"
+        ]
+      },
+      {
+        "time": "8:30-9:30",
+        "days": [
+          "INGLÉS",
+          "GEOGRAFÍA",
+          "MATEMÁTICA",
+          "BIOLOGÍA",
+          "EDUC. ARTÍSTICA (Plástica)"
+        ]
+      },
+      {
+        "time": "9:45-10:45",
+        "days": [
+          "PRAC del LENGUAJE",
+          "CONST. de la CIUDAD.",
+          "FISICO-QUÍMICA",
+          "PRAC del LENGUAJE",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "10:45-11:45",
+        "days": [
+          "PRAC del LENGUAJE",
+          "CONST. de la CIUDAD.",
+          "FISICO-QUÍMICA",
+          "PRAC del LENGUAJE",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "11:50-12:50",
+        "days": [
+          "",
+          "HISTORIA",
+          "HISTORIA",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "course": "3º C",
+    "schedule": [
+      {
+        "time": "7:30-8:30",
+        "days": [
+          "HISTORIA",
+          "MATEMÁTICA",
+          "EDUC. ARTÍSTICA (Plástica)",
+          "MATEMÁTICA",
+          "CONST. de la CIUDAD."
+        ]
+      },
+      {
+        "time": "8:30-9:30",
+        "days": [
+          "HISTORIA",
+          "MATEMÁTICA",
+          "EDUC. ARTÍSTICA (Plástica)",
+          "MATEMÁTICA",
+          "CONST. de la CIUDAD."
+        ]
+      },
+      {
+        "time": "9:40-10:40",
+        "days": [
+          "INGLÉS",
+          "FÍSICO-QUÍMICA",
+          "PRÁCT. del LENGUAJE",
+          "PRÁCT. del LENGUAJE",
+          "GEOGRAFIA"
+        ]
+      },
+      {
+        "time": "10:40-11:40",
+        "days": [
+          "INGLÉS",
+          "FÍSICO-QUÍMICA",
+          "PRÁCT. del LENGUAJE",
+          "PRÁCT. del LENGUAJE",
+          "GEOGRAFIA"
+        ]
+      },
+      {
+        "time": "11:45-12:45",
+        "days": [
+          "BIOLOGÍA",
+          "",
+          "",
+          "",
+          "BIOLOGÍA"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "3º D",
+    "schedule": [
+      {
+        "time": "12:15 - 13:15",
+        "days": [
+          "",
+          "",
+          "MATEMÁTICA",
+          "",
+          "PRÁCT. DEL LENGUAJE"
+        ]
+      },
+      {
+        "time": "13:15 - 14:15",
+        "days": [
+          "MATEMÁTICA",
+          "FÍSICO QUÍMICA",
+          "MATEMÁTICA",
+          "GEOGRAFÍA",
+          "PRÁCT. DEL LENGUAJE"
+        ]
+      },
+      {
+        "time": "14:15 - 15:15",
+        "days": [
+          "MATEMÁTICA",
+          "FÍSICO QUÍMICA",
+          "BIOLOGÍA",
+          "GEOGRAFÍA",
+          "CONST. DE LA CIUDADANÍA"
+        ]
+      },
+      {
+        "time": "15:25 - 16:25",
+        "days": [
+          "HISTORIA",
+          "PRÁCT. DEL LENGUAJE",
+          "EDUC. ARTÍSTICA (Teatro)",
+          "INGLÉS",
+          "CONST. DE LA CIUDADANÍA"
+        ]
+      },
+      {
+        "time": "16:25 - 17:25",
+        "days": [
+          "HISTORIA",
+          "PRÁCT. DEL LENGUAJE",
+          "",
+          "INGLÉS",
+          "BIOLOGÍA"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "4º A",
+    "schedule": [
+      {
+        "time": "7:30-8:30",
+        "days": [
+          "SALUD Y ADOLESC.",
+          "MATEMÁTICA",
+          "GEOGRAFÍA",
+          "INT. a la FÍSICA",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "8:30-9:30",
+        "days": [
+          "SALUD Y ADOLESC.",
+          "MATEMÁTICA",
+          "GEOGRAFÍA",
+          "INT. a la FÍSICA",
+          "LITERATURA"
+        ]
+      },
+      {
+        "time": "9:40-10:40",
+        "days": [
+          "INGLÉS",
+          "LITERATURA",
+          "HISTORIA",
+          "NTICX",
+          "BIOLOGÍA"
+        ]
+      },
+      {
+        "time": "10:40-11:40",
+        "days": [
+          "MATEMÁTICA",
+          "LITERATURA",
+          "HISTORIA",
+          "NTICX",
+          "BIOLOGÍA"
+        ]
+      },
+      {
+        "time": "11:45-12:45",
+        "days": [
+          "INT. a la QUÍMICA",
+          "",
+          "",
+          "INT. a la QUÍMICA",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "course": "4º B",
+    "schedule": [
+      {
+        "time": "7:30-8:30",
+        "days": [
+          "INGLÉS",
+          "HISTORIA",
+          "LITERATURA",
+          "ITALIANO I",
+          "LITERATURA"
+        ]
+      },
+      {
+        "time": "8:30-9:30",
+        "days": [
+          "BIOLOGÍA",
+          "HISTORIA",
+          "LITERATURA",
+          "ITALIANO I",
+          "BIOLOGÍA"
+        ]
+      },
+      {
+        "time": "9:40-10:40",
+        "days": [
+          "SALUD Y ADOLESC.",
+          "MATEMÁTICA",
+          "MATEMÁTICA",
+          "INTROD. A LA FÍSICA",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "10:40-11:40",
+        "days": [
+          "NTICX",
+          "MATEMÁTICA",
+          "GEOGRAFÍA",
+          "INTROD. A LA FÍSICA",
+          "PORTUGUES I"
+        ]
+      },
+      {
+        "time": "11:45-12:45",
+        "days": [
+          "NTICX",
+          "",
+          "GEOGRAFÍA",
+          "SALUD Y ADOLESC.",
+          "PORTUGUES I"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "4º D",
+    "schedule": [
+      {
+        "time": "7:30-8:30",
+        "days": [
+          "MATEMÁTICA",
+          "HISTORIA",
+          "MATEMÁTICA",
+          "INTROD. a la FÍSICA",
+          "GEOGRAFÍA"
+        ]
+      },
+      {
+        "time": "8:30-9:30",
+        "days": [
+          "LITERATURA",
+          "HISTORIA",
+          "MATEMÁTICA",
+          "PSICOLOGÍA",
+          "GEOGRAFÍA"
+        ]
+      },
+      {
+        "time": "9:40-10:40",
+        "days": [
+          "NTICX",
+          "LITERATURA",
+          "NTICX",
+          "PSICOLOGÍA",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "10:40-11:40",
+        "days": [
+          "HISTORIA",
+          "LITERATURA",
+          "SALUD Y ADOLESC.",
+          "GEOGRAFÍA",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "11:45-12:45",
+        "days": [
+          "",
+          "BIOLOGÍA",
+          "SALUD Y ADOLESC.",
+          "BIOLOGÍA",
+          "INTROD. a la FÍSICA"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "4º C",
+    "schedule": [
+      {
+        "time": "13:15-14:15",
+        "days": [
+          "LITERATURA",
+          "INTROD. A LA QUÍMICA",
+          "LITERATURA",
+          "HISTORIA",
+          "INTROD. A LA FÍSICA"
+        ]
+      },
+      {
+        "time": "14:15-15:15",
+        "days": [
+          "LITERATURA",
+          "INTROD. A LA QUÍMICA",
+          "BIOLOGÍA",
+          "HISTORIA",
+          "SALUD y ADOLESC."
+        ]
+      },
+      {
+        "time": "15:25-16:25",
+        "days": [
+          "MATEMÁTICA",
+          "MATEMÁTICA",
+          "BIOLOGÍA",
+          "NTICX",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "16:25-17:25",
+        "days": [
+          "MATEMÁTICA",
+          "GEOGRAFÍA",
+          "INTROD. A LA FÍSICA",
+          "NTICX",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "17:30-18:30",
+        "days": [
+          "",
+          "GEOGRAFÍA",
+          "SALUD y ADOLESC.",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "course": "5º A",
+    "schedule": [
+      {
+        "time": "7:30-8:30",
+        "days": [
+          "FUNDAMENTOS DE LA QUÍMICA",
+          "HISTORIA",
+          "ARTE",
+          "GEOGRAFÍA",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "8:30-9:30",
+        "days": [
+          "FUNDAMENTOS DE LA QUÍMICA",
+          "BIOLOGÍA",
+          "ARTE",
+          "GEOGRAFÍA",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "9:40-10:40",
+        "days": [
+          "POLÍTICA y CIUDAD.",
+          "BIOLOGÍA",
+          "LITERATURA",
+          "HISTORIA",
+          "FISICA"
+        ]
+      },
+      {
+        "time": "10:40-11:40",
+        "days": [
+          "POLÍTICA y CIUDAD.",
+          "MATEMÁTICA",
+          "LITERATURA",
+          "CS de la TIERRA",
+          "FISICA"
+        ]
+      },
+      {
+        "time": "11:45-12:45",
+        "days": [
+          "MATEMÁTICA",
+          "MATEMÁTICA",
+          "FISICA",
+          "CS de la TIERRA",
+          "FUNDAMENTOS DE LA QUÍMICA"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "5º B",
+    "schedule": [
+      {
+        "time": "7:30-8:30",
+        "days": [
+          "PORTUGUÉS II",
+          "MATEMÁTICA",
+          "INTROD a la QUÍMICA",
+          "GEOGRAFÍA",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "8:30-9:30",
+        "days": [
+          "PORTUGUÉS II",
+          "MATEMÁTICA",
+          "INTROD a la QUÍMICA",
+          "GEOGRAFÍA",
+          "INGLÉS"
+        ]
+      },
+      {
+        "time": "9:40-10:40",
+        "days": [
+          "ITALIANO II",
+          "HISTORIA",
+          "LITERATURA",
+          "EST. INTERCULT.",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "10:40-11:40",
+        "days": [
+          "ITALIANO II",
+          "HISTORIA",
+          "LITERATURA",
+          "EST. INTERCULT.",
+          "POL. y CIUDADANÍA"
+        ]
+      },
+      {
+        "time": "11:45-12:45",
+        "days": [
+          "EST. INTERCULT.",
+          "ITALIANO II",
+          "PORTUGUÉS II",
+          "",
+          "POL. y CIUDADANÍA"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "5º C",
+    "schedule": [
+      {
+        "time": "13:15-14:15",
+        "days": [
+          "POL. Y CIUDADANÍA",
+          "BIOLOGÍA",
+          "MATEMÁTICA",
+          "FÍSICA",
+          "ARTE"
+        ]
+      },
+      {
+        "time": "14:15-15:15",
+        "days": [
+          "POL. Y CIUDADANÍA",
+          "BIOLOGÍA",
+          "HISTORIA",
+          "FUND de la QUÍMICA",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "15:25-16:25",
+        "days": [
+          "FUND de la QUÍMICA",
+          "CIENCIAS de la TIERRA",
+          "HISTORIA",
+          "LITERATURA",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "16:25-17:25",
+        "days": [
+          "FUND de la QUÍMICA",
+          "CIENCIAS de la TIERRA",
+          "INGLÉS",
+          "LITERATURA",
+          "FÍSICA"
+        ]
+      },
+      {
+        "time": "17:30-18:30",
+        "days": [
+          "GEOGRAFÍA",
+          "ARTE",
+          "GEOGRAFÍA",
+          "INGLÉS",
+          "FÍSICA"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "5º D",
+    "schedule": [
+      {
+        "time": "13:15-14:15",
+        "days": [
+          "INTR. a la QUÍMICA",
+          "HISTORIA",
+          "INGLÉS",
+          "GEOGRAFÍA",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "14:15-15:15",
+        "days": [
+          "INTR. a la QUÍMICA",
+          "ECONOMÍA y POLÍT.",
+          "INGLÉS",
+          "GEOGRAFÍA",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "15:25-16:25",
+        "days": [
+          "LITERATURA",
+          "ECONOMÍA y POLÍT.",
+          "POLÍT y CIUDADANÍA",
+          "MATEMÁTICA",
+          "COM. CULT. Y SOCIEDAD"
+        ]
+      },
+      {
+        "time": "16:25-17:25",
+        "days": [
+          "LITERATURA",
+          "SOCIOLOGÍA",
+          "POLÍT y CIUDADANÍA",
+          "HISTORIA",
+          "COM. CULT. Y SOCIEDAD"
+        ]
+      },
+      {
+        "time": "17:30-18:30",
+        "days": [
+          "SOCIOLOGIA",
+          "GEOGRAFÍA",
+          "SOCIOLOGÍA",
+          "HISTORIA",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "course": "6º C",
+    "schedule": [
+      {
+        "time": "13:15-14:15",
+        "days": [
+          "QUÍMICA del CARBONO",
+          "AMB, DES y SOCIEDAD",
+          "BIOL, GENET. Y SOC.",
+          "FÍSICA CLÁS y MODERNA",
+          "BIOL, GENET. Y SOC."
+        ]
+      },
+      {
+        "time": "14:15-15:15",
+        "days": [
+          "QUÍMICA del CARBONO",
+          "AMB, DES y SOCIEDAD",
+          "BIOL, GENET. Y SOC.",
+          "FÍSICA CLÁS y MODERNA",
+          "FÍSICA CLÁS y MODERNA"
+        ]
+      },
+      {
+        "time": "15:25-16:25",
+        "days": [
+          "FILOS e HIST de C y T",
+          "LITERATURA",
+          "TRAB y CIUDADANIA",
+          "QUÍMICA del CARBONO",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "16:25-17:25",
+        "days": [
+          "FILOS e HIST de C y T",
+          "LITERATURA",
+          "TRAB y CIUDADANIA",
+          "MATEMÁTICA",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "17:30-18:30",
+        "days": [
+          "INGLÉS",
+          "",
+          "LITERATURA",
+          "MATEMÁTICA",
+          "INGLÉS"
+        ]
+      }
+    ]
+  },
+  {
+    "course": "6º D",
+    "schedule": [
+      {
+        "time": "13:15-14:15",
+        "days": [
+          "FILOSOFÍA",
+          "LITERATURA",
+          "MATEMÁTICA",
+          "LITERATURA",
+          "GEOGRAFÍA"
+        ]
+      },
+      {
+        "time": "14:15-15:15",
+        "days": [
+          "HISTORIA",
+          "LITERATURA",
+          "INGLÉS",
+          "HISTORIA",
+          "GEOGRAFÍA"
+        ]
+      },
+      {
+        "time": "15:25-16:25",
+        "days": [
+          "ARTE",
+          "FILOSOFÍA",
+          "INGLÉS",
+          "PROY INVEST CS SOC",
+          "PROY INVEST CS SOC"
+        ]
+      },
+      {
+        "time": "16:25-17:25",
+        "days": [
+          "ARTE",
+          "TRABAJO y CIUDAD.",
+          "PROY INVEST CS SOC",
+          "PROY INVEST CS SOC",
+          "MATEMÁTICA"
+        ]
+      },
+      {
+        "time": "17:30-18:30",
+        "days": [
+          "MATEMÁTICA",
+          "TRABAJO y CIUDAD.",
+          "",
+          "",
+          "MATEMÁTICA"
+        ]
+      }
+    ]
+  }
+    ]
