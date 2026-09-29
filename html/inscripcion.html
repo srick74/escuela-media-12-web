@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscripción Escolar - Escuela Secundaria</title>
+  <link rel="stylesheet" href="../css/inscripcion.css">
+  <link rel="stylesheet" href="../css/sitio.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-brand">
+      <img src="../img/logo EES12 - Escudo.png" alt="Escudo de la Escuela Media N°12">
+      <h1>Escuela de Educación Secundaria Media N°12</h1>
+    </div>
+  </header>
+  <nav class="site-nav" aria-label="Navegación principal">
+    <a href="../index.html">Inicio</a>
+    <a href="./gestion.html">Equipo de Gestión</a>
+    <a href="./galeria.html">Galería</a>
+    <a href="./horarios.html">Niveles Educativos y Horarios</a>
+    <a href="./inscripcion.html" aria-current="page">Inscripciones y Matrículas</a>
+  </nav>
+
+  <div class="container">
+    <header class="page-intro">
+      <h1>Proceso de Inscripción Escolar</h1>
+      <p>Seleccioná el año correspondiente para ver la documentación requerida y descargar las planillas.</p>
+    </header>
+
+    <div class="step-title">Paso 1: Seleccioná el año de cursada</div>
+    
+    <div class="selector-container">
+      <button class="btn-select" id="btn-1ro" onclick="mostrarSeccion('1ro')">1.er Año</button>
+      <button class="btn-select" id="btn-2do6to" onclick="mostrarSeccion('2do6to')">2.º a 6.º Año</button>
+    </div>
+
+    <!-- SECCIÓN 1ER AÑO -->
+    <div id="seccion-1ro" class="content-section">
+      <h3 class="section-title">Requisitos para Inscripción - 1.er Año</h3>
+      
+      <p><strong>Documentación a presentar:</strong></p>
+      <ul class="requirements-list">
+        <li>Certificado de finalización de Estudios Primarios.</li>
+        <li>CUIL del alumna/o y de la madre y/o padre.</li>
+        <li>Fotocopia del acta de nacimiento o partida de nacimiento.</li>
+        <li>Autorización para uso de imagen.</li>
+        <li>Ficha de Salud.</li>
+        <li>Fotocopia de la libreta de vacunación completa (LSMI).</li>
+        <li>Anexo III de salida educativa.</li>
+        <li>Certificado de buena salud.</li>
+        <li>Certificado buco-dental.</li>
+        <li>Autorización para el retiro de alumna/o.</li>
+        <li>Foto 4x4 (1).</li>
+      </ul>
+
+      <p>Solicitá las planillas correspondientes en la secretaría escolar.</p>
+    </div>
+
+    <!-- SECCIÓN 2DO A 6TO AÑO -->
+    <div id="seccion-2do6to" class="content-section">
+      <h3 class="section-title">Requisitos para Inscripción - 2.º a 6.º Año</h3>
+      
+      <p><strong>Documentación a presentar:</strong></p>
+      <ul class="requirements-list">
+        <li>CUIL del alumna/o y de la madre y/o padre.</li>
+        <li>Fotocopia del acta de nacimiento o partida de nacimiento.</li>
+        <li>Autorización para uso de imagen.</li>
+        <li>Ficha de Salud.</li>
+        <li>Fotocopia de la libreta de vacunación completa (LSMI).</li>
+        <li>Anexo III de salida educativa.</li>
+        <li>Certificado de buena salud.</li>
+        <li>Certificado buco-dental.</li>
+        <li>Autorización para el retiro de alumna/o.</li>
+        <li>Foto 4x4 (1).</li>
+        <li>Acta de compromiso de entrega de analítico incompleto <em>(sólo para matrícula externa)</em>.</li>
+      </ul>
+
+      <p>Solicitá las planillas correspondientes en la secretaría escolar.</p>
+    </div>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <h2>Contacto</h2>
+      <p>Teléfonos: 291 439-4625 | 291 451-0260 | 291 455-0612</p>
+      <p>Correo: secundaria12bahiablanca@abc.gob.ar</p>
+      <p>Dirección: Sarmiento 1450, Bahía Blanca</p>
+      <div class="site-footer-social" aria-label="Redes sociales">
+        <a href="https://www.facebook.com/groups/1409092236011892/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.instagram.com/escuela_secundaria12/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/INSCRIPCION.JS"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Oswald:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/horarios.css">
+    <link rel="stylesheet" href="../css/sitio.css">
+
+    <title>Horarios | Escuela Media N°12</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="site-brand">
+            <img src="../img/logo EES12 - Escudo.png" alt="Escudo de la Escuela Media N°12">
+            <h1>Escuela de Educación Secundaria Media N°12</h1>
+        </div>
+    </header>
+    <nav class="site-nav" aria-label="Navegación principal">
+
+        <a href="../index.html">
+            Inicio
+        </a>
+
+        <a href="./gestion.html">
+            Equipo de Gestión
+        </a>
+
+        <a href="./galeria.html">
+            Galería
+        </a>
+
+        <a href="./horarios.html" aria-current="page">
+            Niveles Educativos y Horarios
+        </a>
+
+        <a href="./inscripcion.html">
+            Inscripciones y Matrículas
+        </a>
+
+    </nav>
+    <main class="contenedor">
+
+        <section class="titulo">
+
+            <span>
+                CICLO LECTIVO 2026
+            </span>
+
+            <h1>
+                Horarios escolares
+            </h1>
+
+            <p>
+                Consultá los horarios correspondientes a cada curso.
+            </p>
+
+        </section>
+
+
+        <!-- SELEC  TOR -->
+
+        <section class="selector">
+
+            <label for="cursoSelect">
+                Seleccioná el curso
+            </label>
+
+            <select id="cursoSelect">
+            </select>
+
+        </section>
+
+
+        <!-- INFORMACIÓN DEL CURSO -->
+
+        <section id="infoCurso" class="infoCurso">
+        </section>
+
+
+        <!-- TABLA -->
+
+        <section class="tablaContenedor">
+
+            <div class="avisoCelular">
+                Deslizá hacia los costados para ver toda la tabla.
+            </div>
+
+            <div class="tablaScroll">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th class="hora">
+                                HORARIO
+                            </th>
+
+                            <th>
+                                LUNES
+                            </th>
+
+                            <th>
+                                MARTES
+                            </th>
+
+                            <th>
+                                MIÉRCOLES
+                            </th>
+
+                            <th>
+                                JUEVES
+                            </th>
+
+                            <th>
+                                VIERNES
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="horariosBody">
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- VOLVER -->
+
+        <div class="volver">
+
+            <a href="../index.html">
+                ← Volver al inicio
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <!-- PIE -->
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <h2>Contacto</h2>
+            <p>Teléfonos: 291 439-4625 | 291 451-0260 | 291 455-0612</p>
+            <p>Correo: secundaria12bahiablanca@abc.gob.ar</p>
+            <p>Dirección: Sarmiento 1450, Bahía Blanca</p>
+            <div class="site-footer-social" aria-label="Redes sociales">
+                <a href="https://www.facebook.com/groups/1409092236011892/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.instagram.com/escuela_secundaria12/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../js/horarios-publicos.js"></script>
+
+</body>
+
+</html>
