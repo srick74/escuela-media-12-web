@@ -1,0 +1,861 @@
+/* =========================================================
+   HORARIOS - ESCUELA MEDIA N°12
+   ========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #f4f7fc;
+
+    color: #172033;
+
+    font-family: "Kanit", sans-serif;
+}
+
+
+/* =========================================================
+   ENCABEZADO
+   ========================================================= */
+
+.Inicio:not(.site-header) {
+
+    min-height: 175px;
+
+    padding: 25px 15px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #101b61,
+        #152b91,
+        #1851c4
+    );
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.18);
+}
+
+
+.Inicio:not(.site-header) img {
+
+    width: 82px;
+
+    height: 82px;
+
+    object-fit: contain;
+
+    margin-bottom: 12px;
+
+    filter:
+        drop-shadow(
+            0 3px 5px rgba(0,0,0,.3)
+        );
+}
+
+
+.Inicio:not(.site-header) h2 {
+
+    margin: 0;
+
+    color: white;
+
+    font-family: "Oswald", sans-serif;
+
+    font-size: clamp(
+        22px,
+        4vw,
+        32px
+    );
+
+    font-weight: 500;
+}
+
+
+/* =========================================================
+   MENÚ
+   ========================================================= */
+
+.MenudeOpciones:not(.site-nav) {
+
+    width: 100%;
+
+    min-height: 55px;
+
+    padding: 7px 10px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 5px;
+
+    background: linear-gradient(
+        90deg,
+        #0759d8,
+        #0788ef
+    );
+
+    box-shadow:
+        0 3px 10px rgba(0,0,0,.15);
+}
+
+
+.MenudeOpciones:not(.site-nav) a {
+
+    padding: 10px 14px;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    border-radius: 6px;
+
+    transition:
+        background .2s ease,
+        transform .2s ease;
+}
+
+
+.MenudeOpciones:not(.site-nav) a:hover {
+
+    background:
+        rgba(255,255,255,.15);
+
+    transform:
+        translateY(-1px);
+}
+
+
+.MenudeOpciones:not(.site-nav) a.activo {
+
+    background:
+        rgba(255,255,255,.2);
+
+    box-shadow:
+        inset 0 -3px 0 white;
+}
+
+
+/* =========================================================
+   CONTENEDOR PRINCIPAL
+   ========================================================= */
+
+.contenedor {
+
+    width: 94%;
+
+    max-width: 1400px;
+
+    margin: auto;
+
+    padding:
+        45px 0 60px;
+}
+
+
+/* =========================================================
+   TÍTULO
+   ========================================================= */
+
+.titulo {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+
+.titulo span {
+
+    display: inline-block;
+
+    padding:
+        7px 16px;
+
+    color: #075ee8;
+
+    background: #e8f1ff;
+
+    border:
+        1px solid #c8dcfa;
+
+    border-radius:
+        30px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing:
+        1.5px;
+}
+
+
+.titulo h1 {
+
+    margin:
+        12px 0 5px;
+
+    color: #122266;
+
+    font-family:
+        "Oswald",
+        sans-serif;
+
+    font-size:
+        clamp(35px, 5vw, 52px);
+
+    font-weight: 600;
+}
+
+
+.titulo p {
+
+    margin: 0;
+
+    color: #667085;
+
+    font-size: 16px;
+}
+
+
+/* =========================================================
+   SELECTOR
+   ========================================================= */
+
+.selector {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    margin:
+        0 auto 25px;
+
+    padding: 22px;
+
+    background: white;
+
+    border:
+        1px solid #dfe6f0;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 7px 25px
+        rgba(18,34,102,.1);
+}
+
+
+.selector label {
+
+    display: block;
+
+    margin-bottom: 9px;
+
+    color: #122266;
+
+    font-weight: 600;
+
+    font-size: 15px;
+}
+
+
+#cursoSelect {
+
+    width: 100%;
+
+    height: 52px;
+
+    padding:
+        0 15px;
+
+    border:
+        2px solid #d6e0ef;
+
+    border-radius: 10px;
+
+    background: white;
+
+    color: #172033;
+
+    font-family:
+        "Kanit",
+        sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    cursor: pointer;
+
+    outline: none;
+
+    transition: .2s;
+}
+
+
+#cursoSelect:hover {
+
+    border-color:
+        #075ee8;
+}
+
+
+#cursoSelect:focus {
+
+    border-color:
+        #075ee8;
+
+    box-shadow:
+        0 0 0 4px
+        rgba(7,94,232,.12);
+}
+
+
+/* =========================================================
+   INFORMACIÓN DEL CURSO
+   ========================================================= */
+
+.infoCurso {
+
+    width: 100%;
+
+    margin-bottom: 20px;
+
+    padding:
+        20px 25px;
+
+    display: flex;
+
+    justify-content:
+        space-between;
+
+    align-items: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            100deg,
+            #111d67,
+            #1450bd
+        );
+
+    border-radius: 13px;
+
+    box-shadow:
+        0 7px 20px
+        rgba(17,29,103,.18);
+}
+
+
+.infoCurso strong {
+
+    display: block;
+
+    margin-bottom: 4px;
+
+    font-family:
+        "Oswald",
+        sans-serif;
+
+    font-size: 23px;
+
+    font-weight: 500;
+}
+
+
+.infoCurso .detalle {
+
+    color:
+        rgba(255,255,255,.85);
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   TABLA
+   ========================================================= */
+
+.tablaContenedor {
+
+    background: white;
+
+    border:
+        1px solid #dfe6ef;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 28px
+        rgba(18,34,102,.1);
+}
+
+
+.tablaScroll {
+
+    width: 100%;
+
+    overflow-x: auto;
+}
+
+
+table {
+
+    width: 100%;
+
+    min-width: 950px;
+
+    border-collapse:
+        collapse;
+
+    table-layout: fixed;
+}
+
+
+thead th {
+
+    padding:
+        16px 10px;
+
+    color: white;
+
+    background:
+        #1165d8;
+
+    font-family:
+        "Oswald",
+        sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+    letter-spacing:
+        .5px;
+
+    text-align: center;
+
+    border-right:
+        1px solid
+        rgba(255,255,255,.2);
+}
+
+
+thead th.hora {
+
+    width: 145px;
+
+    background:
+        #101b61;
+}
+
+
+tbody td {
+
+    padding:
+        13px 9px;
+
+    min-height: 65px;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+    background: white;
+
+    border-right:
+        1px solid #e0e6ef;
+
+    border-bottom:
+        1px solid #e0e6ef;
+}
+
+
+tbody tr:nth-child(even) td {
+
+    background:
+        #f8fbff;
+}
+
+
+tbody tr:hover td {
+
+    background:
+        #eef5ff;
+}
+
+
+tbody td.hora {
+
+    color: #122266;
+
+    background:
+        #edf3ff !important;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+
+.materia {
+
+    display: block;
+
+    color: #173078;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    line-height: 1.25;
+}
+
+
+.docente {
+
+    display: block;
+
+    margin-top: 5px;
+
+    color: #77839a;
+
+    font-size: 10px;
+
+    line-height: 1.25;
+}
+
+
+.vacio {
+
+    color:
+        #b2bdcc;
+
+    font-size:
+        18px;
+}
+
+
+/* =========================================================
+   AVISO CELULAR
+   ========================================================= */
+
+.avisoCelular {
+
+    display: none;
+
+    padding:
+        10px 15px;
+
+    color: #637086;
+
+    background:
+        #f3f7fd;
+
+    border-bottom:
+        1px solid #e1e7ef;
+
+    text-align: center;
+
+    font-size: 11px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   BOTÓN VOLVER
+   ========================================================= */
+
+.volver {
+
+    margin-top: 28px;
+
+    text-align: center;
+}
+
+
+.volver a {
+
+    display: inline-block;
+
+    padding:
+        10px 20px;
+
+    color: #075ee8;
+
+    background: white;
+
+    border:
+        1px solid #cbd8eb;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    transition: .2s;
+}
+
+
+.volver a:hover {
+
+    color: white;
+
+    background: #075ee8;
+
+    border-color:
+        #075ee8;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+
+    margin-top: 20px;
+
+    background:
+        #101b61;
+
+    color: white;
+
+    text-align: center;
+}
+
+
+.contacto {
+
+    padding:
+        35px 20px;
+}
+
+
+.contacto h3 {
+
+    margin:
+        8px 0 10px;
+
+    font-family:
+        "Oswald",
+        sans-serif;
+
+    font-weight: 500;
+}
+
+
+.contacto p {
+
+    margin:
+        5px 0;
+
+    color:
+        #dbe5ff;
+
+    font-size: 14px;
+}
+
+
+.contacto h5 {
+
+    margin:
+        8px;
+}
+
+
+.contacto a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: 500;
+}
+
+
+.contacto a:hover {
+
+    text-decoration:
+        underline;
+}
+
+
+/* =========================================================
+   CELULAR
+   ========================================================= */
+
+@media (max-width: 750px) {
+
+    .Inicio {
+
+        min-height: 145px;
+
+        padding:
+            20px 10px;
+    }
+
+
+    .Inicio img {
+
+        width: 65px;
+
+        height: 65px;
+    }
+
+
+    .Inicio h2 {
+
+        font-size: 21px;
+    }
+
+
+    .MenudeOpciones {
+
+        padding: 6px;
+
+        gap: 3px;
+    }
+
+
+    .MenudeOpciones a {
+
+        padding:
+            8px 9px;
+
+        font-size: 11px;
+    }
+
+
+    .contenedor {
+
+        width: 95%;
+
+        padding-top:
+            30px;
+    }
+
+
+    .titulo h1 {
+
+        font-size:
+            36px;
+    }
+
+
+    .titulo p {
+
+        font-size:
+            14px;
+    }
+
+
+    .selector {
+
+        padding:
+            17px;
+    }
+
+
+    .infoCurso {
+
+        padding:
+            17px;
+    }
+
+
+    .infoCurso strong {
+
+        font-size:
+            20px;
+    }
+
+
+    .avisoCelular {
+
+        display: block;
+    }
+
+
+    table {
+
+        min-width:
+            850px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .MenudeOpciones {
+
+        display: grid;
+
+        grid-template-columns:
+            1fr 1fr;
+    }
+
+
+    .MenudeOpciones a {
+
+        text-align: center;
+
+        font-size:
+            10px;
+    }
+
+
+    .titulo h1 {
+
+        font-size:
+            31px;
+    }
+
+
+    .titulo span {
+
+        font-size:
+            10px;
+    }
+
+}

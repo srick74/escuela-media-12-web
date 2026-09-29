@@ -1,0 +1,191 @@
+:root {
+  --primary-color: #176b87;
+  --primary-hover: #12566d;
+  --secondary-color: #334b5c;
+  --bg-color: #f4f8fb;
+  --card-bg: #ffffff;
+  --border-color: #d8e2e9;
+  --text-color: #172b3a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Kanit", sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: min(calc(100% - 32px), 800px);
+  margin: 36px auto;
+  padding: 30px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--card-bg);
+  box-shadow: 0 4px 15px rgba(23, 43, 58, 0.08);
+}
+
+.page-intro {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.page-intro h1 {
+  margin-bottom: 8px;
+  color: var(--primary-color);
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.page-intro p {
+  color: #5f7381;
+  font-size: 1rem;
+}
+
+.step-title {
+  margin-bottom: 15px;
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.selector-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.btn-select {
+  flex: 1;
+  padding: 15px 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 6px;
+  background-color: white;
+  color: var(--primary-color);
+  font: inherit;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color .2s ease, color .2s ease;
+}
+
+.btn-select:hover,
+.btn-select.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-select:focus-visible,
+.btn-download:focus-visible {
+  outline: 3px solid #77c7d8;
+  outline-offset: 3px;
+}
+
+.content-section {
+  display: none;
+  animation: fadeIn .3s ease;
+}
+
+.content-section.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.section-title {
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  font-size: 1.3rem;
+}
+
+.requirements-list {
+  margin-bottom: 25px;
+  padding-left: 20px;
+}
+
+.requirements-list li {
+  margin-bottom: 8px;
+}
+
+.download-card {
+  margin-top: 20px;
+  padding: 20px;
+  border-left: 4px solid var(--primary-color);
+  border-radius: 4px;
+  background-color: #f1f6f8;
+}
+
+.download-card h4 {
+  margin-bottom: 12px;
+  color: var(--secondary-color);
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: white;
+  color: var(--text-color);
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color .2s ease;
+}
+
+.btn-download:hover {
+  background-color: #e9f1f4;
+}
+
+.badge {
+  flex: 0 0 auto;
+  padding: 4px 8px;
+  border-radius: 3px;
+  color: white;
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.badge-word { background-color: var(--primary-color); }
+.badge-pdf { background-color: #b74646; }
+
+@media (max-width: 600px) {
+  .container {
+    width: calc(100% - 24px);
+    margin: 20px auto;
+    padding: 22px 18px;
+  }
+
+  .page-intro h1 {
+    font-size: 26px;
+  }
+
+  .selector-container {
+    flex-direction: column;
+  }
+
+  .btn-download {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
